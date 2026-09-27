@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #2563eb;
+    --primary-light: #dbeafe;
+    --primary-dark: #1e40af;
+    --accent: #059669;
+    --accent-light: #d1fae5;
+    --accent-dark: #047857;
+    --danger: #dc2626;
+    --danger-light: #fee2e2;
+    --danger-dark: #991b1b;
+    --warning: #d97706;
+    --warning-light: #fef3c7;
+    --warning-dark: #92400e;
+    --purple: #7c3aed;
+    --purple-light: #ede9fe;
+    --pink: #db2777;
+    --pink-light: #fce7f3;
+  }
+
+  body {
+    font-family: "Hind Siliguri", "Noto Sans Bengali", "Segoe UI", sans-serif;
+    background: #f1f5f9;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 16px);
+  }
+}

@@ -1,0 +1,10 @@
+export { HomeIcon } from "./HomeIcon";
+export { UserIcon } from "./UserIcon";
+export { UsersIcon } from "./UsersIcon";
+export { BookOpenIcon } from "./BookOpenIcon";
+export { CalendarIcon } from "./CalendarIcon";
+export { ClipboardCheckIcon } from "./ClipboardCheckIcon";
+export { BellIcon } from "./BellIcon";
+export { SearchIcon } from "./SearchIcon";
+export { SettingsIcon } from "./SettingsIcon";
+export { LogOutIcon } from "./LogOutIcon";
